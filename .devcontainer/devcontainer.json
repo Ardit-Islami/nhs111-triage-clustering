@@ -1,0 +1,13 @@
+{
+    "name": "cluster-project",
+    "build": {"dockerfile": "Dockerfile"},
+    "postCreateCommand": "uv sync --dev",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/pythom"
+            },
+            "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+        }
+    }
+}

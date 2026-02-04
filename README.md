@@ -1,0 +1,2 @@
+After finishing IBM's AI Engineering Course 1, I wish to put into practice these skills and create a clustering project based on NHS Datasets.
+This is my first commit, just setting up the structure of the project.
