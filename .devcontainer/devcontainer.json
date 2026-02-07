@@ -5,9 +5,14 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/pythom"
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "charliermarsh.ruff",
+                "editor.formatOnSave": true,
+                "editor.codeActionsOnSave": {"source.fixAll": "explicit", "source.organizeImports": "explicit"}
             },
-            "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+            "extensions": ["ms-python.python", "ms-python.vscode-pylance", 
+                            "ms-toolsai.jupyter"]
         }
     }
 }
